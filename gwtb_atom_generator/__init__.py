@@ -85,7 +85,3 @@ def generate_atom_feed():
         )
 
     return feed.to_string()
-
-
-if __name__ == '__main__':
-    print(generate_atom_feed())
