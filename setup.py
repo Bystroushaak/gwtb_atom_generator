@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 from codecs import open
 from os import path
 
-__version__ = '0.0.1'
+__version__ = '0.0.3'
 
 here = path.abspath(path.dirname(__file__))
 
@@ -39,7 +39,7 @@ setup(
     author_email='bystrousak@kitakitsune.org',
     entry_points = {
         'console_scripts': [
-            'gwtb_atom_generator = gwtb_atom_generator:generate_atom_feed',
+            'gwtb_atom_generator = gwtb_atom_generator:main',
         ],
     },
 )

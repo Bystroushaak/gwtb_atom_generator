@@ -1,4 +1,3 @@
-#! /usr/bin/env python3
 import time
 from urllib.parse import urljoin
 
@@ -85,3 +84,7 @@ def generate_atom_feed():
         )
 
     return feed.to_string()
+
+
+def main():
+    print(generate_atom_feed())
