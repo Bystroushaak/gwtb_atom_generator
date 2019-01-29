@@ -15,3 +15,8 @@ Or clone the repo:
 
     $ git clone https://github.com/Bystroushaak/gwtb_atom_generator.git
     $ python3 setup.py install
+
+Example
+-------
+
+* http://kitakitsune.org/raw/feeds/gwtb.xml
